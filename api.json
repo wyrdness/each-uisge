@@ -1,10 +1,8 @@
 {
-  "category": "SHAPESHIFTER",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/each-uisge",
     "maintainers": [
       {
@@ -18,445 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "each-uisge",
     "name": "Each-Uisge",
-    "aliases": [
-      {
-        "name": "Aughisky",
-        "language": "Irish Gaelic",
-        "region": "Ireland"
-      },
-      {
-        "name": "Each-Uisce",
-        "language": "Scottish Gaelic",
-        "region": "Scotland",
-        "meaning": "water horse"
-      },
-      {
-        "name": "Ech-Ushkya",
-        "language": "English phonetic",
-        "note": "Approximate pronunciation: 'ech-ooshkya'"
-      },
-      {
-        "name": "Sea Horse",
-        "language": "English",
-        "region": "Scottish Highlands"
-      }
-    ],
-    "category": "SHAPESHIFTER",
-    "subcategory": "Fae Folklore",
+    "aliases": [],
+    "category": "|_BROADER_CELTIC_WATER_HORSE_SPIRITS_|",
+    "subcategory": "Water horse",
     "tags": [
-      "shapeshifter",
-      "fae",
-      "water-spirit",
-      "scottish",
-      "highlands",
-      "horse",
-      "water-horse",
-      "dangerous",
-      "sea-loch",
-      "man-eater"
+      "&-themes"
     ],
-    "status": "traditional-folklore",
+    "status": "documented",
     "description": {
-      "summary": "The most dangerous water horse variant in Scottish Highland folklore. Inhabits sea lochs and ocean, appears as a beautiful horse, drags victims to water, drowns and devours them completely except for the liver which floats to the surface.",
-      "full": "The each-uisge (pronounced 'ech-ooshkya') is considered the most malevolent and dangerous of the Scottish water horses. Unlike its cousin the kelpie which inhabits freshwater rivers and lochs, the each-uisge dwells in the sea and sea lochs of the Scottish Highlands. It appears as a beautiful horse, often white or grey, and like the kelpie possesses adhesive skin that traps anyone who touches it. Once a victim is stuck, the each-uisge plunges into the water and drowns them. Most horrifically, the each-uisge then devours its victim entirely, with only the liver floating to the surface - a grisly calling card. The creature can also shapeshift into human form (a handsome man) or sometimes into a huge bird. In human form, the each-uisge can be detected by water weeds in their hair and webbed fingers. The each-uisge is distinguished from the kelpie primarily by habitat (sea vs. freshwater) and its more extreme lethality. In Highland folklore, it represents the ultimate danger of the sea and serves as a potent warning against approaching strange horses near coastal waters."
+      "summary": "The each-uisge (pronounced \\\"ech-ooshkya\\\") is considered the most malevolent and dangerous of the Scottish water horses.",
+      "full": "The each-uisge (pronounced \\\"ech-ooshkya\\\") is considered the most malevolent and dangerous of the Scottish water horses. Unlike its cousin the kelpie which inhabits freshwater rivers and lochs, the each-uisge dwells in the sea and sea lochs of the Scottish Highlands. It appears as a beautiful horse, often white or grey, and like the kelpie possesses adhesive skin that traps anyone who touches it. Once a victim is stuck, the each-uisge plunges into the water and drowns them."
     },
     "etymology": {
-      "origin": "Scottish Gaelic 'each-uisge' - 'each' (horse) + 'uisge' (water)",
-      "meaning": "Water horse",
-      "pronunciation": "ech-OOSH-kya (approximate)",
-      "first_use": "Documented in Scottish Highland folklore, oral traditions ancient"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "SHAPESHIFTER",
-      "type": "Fae/Spirit",
-      "subtype": "Water horse",
-      "variant": "Sea/sea loch (saltwater)"
+      "category": "|_BROADER_CELTIC_WATER_HORSE_SPIRITS_|",
+      "type": "Water horse",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "kelpie",
-        "name": "Kelpie",
-        "relationship": "variant",
-        "description": "Freshwater cousin, less dangerous but similar"
-      },
-      {
-        "id": "nuckelavee",
-        "name": "Nuckelavee",
-        "relationship": "related",
-        "description": "Even more malevolent Orcadian sea demon"
-      },
-      {
-        "id": "water-horse",
-        "name": "Water Horse (generic)",
-        "relationship": "category",
-        "description": "Broader category of Celtic water horse spirits"
-      },
-      {
-        "id": "selkie",
-        "name": "Selkie",
-        "relationship": "contrast",
-        "description": "Benign Scottish shapeshifter for comparison"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "horse_form": {
-        "appearance": "Beautiful horse, often white or grey, sometimes dappled",
-        "features": [
-          {
-            "feature": "Coloration",
-            "description": "Often white or grey, sometimes dappled or black",
-            "frequency": "always"
-          },
-          {
-            "feature": "Beauty",
-            "description": "Exceptionally beautiful and attractive horse",
-            "frequency": "always"
-          },
-          {
-            "feature": "Adhesive skin",
-            "description": "Skin becomes adhesive once victim touches - impossible to escape",
-            "frequency": "always"
-          },
-          {
-            "feature": "Cold and wet",
-            "description": "Skin cold and covered in seawater",
-            "frequency": "common"
-          },
-          {
-            "feature": "Seaweed",
-            "description": "Often has seaweed in mane and tail",
-            "frequency": "common"
-          }
-        ]
-      },
-      "human_form": {
-        "appearance": "Handsome man with telltale aquatic features",
-        "features": [
-          {
-            "feature": "Attractiveness",
-            "description": "Exceptionally handsome",
-            "frequency": "always"
-          },
-          {
-            "feature": "Webbed fingers",
-            "description": "Slight webbing between fingers",
-            "frequency": "common"
-          },
-          {
-            "feature": "Seaweed in hair",
-            "description": "Hair contains seaweed or remains wet",
-            "frequency": "common"
-          },
-          {
-            "feature": "Cold, wet skin",
-            "description": "Skin always cold and damp like seawater",
-            "frequency": "always"
-          }
-        ]
-      },
-      "bird_form": {
-        "appearance": "Sometimes appears as huge bird",
-        "features": [
-          {
-            "feature": "Size",
-            "description": "Enormous bird, larger than natural",
-            "frequency": "rare"
-          }
-        ]
-      }
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Transform between horse, human, and bird forms",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Adhesive skin",
-        "description": "Victims permanently stuck once they touch the creature",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Superhuman strength",
-        "description": "Can drag multiple victims into deep water",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Swimming",
-        "description": "Powerful swimmer in ocean and sea lochs",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Luring",
-        "description": "Supernaturally attractive to victims",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "variable",
-      "disposition": "highly malevolent",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "sea lochs",
-        "ocean",
-        "coastal waters",
-        "saltwater",
-        "tidal areas"
-      ],
-      "patterns": [
-        "Appears near sea lochs waiting for victims",
-        "Allows victims to ride or touch",
-        "Once contact made, drags victim into deep water",
-        "Drowns victim",
-        "Devours victim entirely except liver",
-        "Liver floats to surface as only remains",
-        "May venture onto land briefly as horse or human",
-        "More dangerous than freshwater kelpie"
-      ],
-      "prey": "Humans of all ages, considered highly dangerous to everyone",
-      "feeding": "Man-eater - devours victims completely, only liver remains"
-    },
-    "weaknesses": [
-      {
-        "weakness": "Fresh water",
-        "description": "Cannot tolerate fresh water, less powerful away from sea",
-        "severity": "medium"
-      },
-      {
-        "weakness": "Recognition",
-        "description": "Identifying its true nature may provide protection",
-        "severity": "low"
-      },
-      {
-        "weakness": "Staying off its back",
-        "description": "Safe if never touched or mounted",
-        "severity": "medium"
-      }
-    ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
   },
-
   "distribution": {
     "range": {
-      "description": "Scottish Highlands, particularly western coast and islands. Inhabits sea lochs, bays, and coastal waters. Irish variant (aughisky) found in Ireland.",
-      "continents": ["Europe"],
-      "countries": ["Scotland", "Ireland"],
-      "regions": [
-        "Scottish Highlands",
-        "Western Highlands",
-        "Isle of Skye",
-        "Outer Hebrides",
-        "Inner Hebrides",
-        "West Coast sea lochs",
-        "Ireland (aughisky variant)"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Sea lochs of Western Highlands",
-        "location": {
-          "description": "Western Scottish Highlands",
-          "country": "Scotland",
-          "region": "Highlands"
-        },
-        "significance": "Primary each-uisge habitat",
-        "notes": "Numerous sea lochs with each-uisge tales"
-      },
-      {
-        "name": "Isle of Skye",
-        "location": {
-          "description": "Inner Hebrides",
-          "country": "Scotland",
-          "region": "Islands"
-        },
-        "significance": "Rich each-uisge folklore",
-        "notes": "Many coastal each-uisge stories"
-      },
-      {
-        "name": "Outer Hebrides",
-        "location": {
-          "description": "Western Isles",
-          "country": "Scotland",
-          "region": "Islands"
-        },
-        "significance": "Traditional each-uisge warnings",
-        "notes": "Island communities with strong traditions"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1600s",
+        "date": "Unknown",
         "circa": true,
-        "source": "Scottish Highland oral traditions, written records from 17th century"
-      },
-      "seasonal_patterns": "Year-round danger, though stories often set in summer"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Scottish Highland water spirit folklore. Reflects the deadly danger of sea lochs and coastal waters. More feared than the freshwater kelpie due to association with the unpredictable ocean.",
-      "earliest_accounts": "Oral traditions ancient; documented in written Highland folklore from 1600s onward.",
-      "folklore_connections": "Part of broader Celtic water horse tradition. Related to Irish aughisky. Shares characteristics with kelpie but considered more dangerous. Distinguished by saltwater habitat and complete consumption of victims."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-1600",
-        "event": "Oral tradition establishment",
-        "significance": "Each-uisge tales warn Highland coastal communities of sea dangers",
-        "source": "Oral tradition"
-      },
-      {
-        "date": "1600s-1700s",
-        "event": "Written documentation",
-        "significance": "Each-uisge folklore recorded in Highland texts",
-        "source": "Scottish Highland historical documents"
-      },
-      {
-        "date": "1900",
-        "event": "J.F. Campbell documentation",
-        "significance": "Extensive recording in Popular Tales of the West Highlands",
-        "source": "Folklore collection"
-      },
-      {
-        "date": "1975",
-        "event": "Academic study",
-        "significance": "Scholarly analysis distinguishing each-uisge from kelpie",
-        "source": "Folklore scholarship"
-      }
-    ],
-    "modern_era": "Each-uisge remains important in Highland folklore, though less well-known than the kelpie outside Scotland. Represents the ultimate danger of the sea in Highland tradition."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Warnings about strange horses near sea lochs",
-        "Cautionary tales for coastal communities",
-        "Distinction between sea and freshwater horse spirits",
-        "Floating liver as evidence of each-uisge attack"
-      ],
-      "stories": [
-        "The Each-Uisge of Loch Eynort",
-        "Tales of victims' livers washing ashore",
-        "Stories distinguishing each-uisge from kelpie",
-        "Human form seduction tales near sea lochs"
-      ],
-      "beliefs": "Each-uisge considered most dangerous of water horses. Avoided sea lochs and coastal horses. Liver floating to surface as sign of each-uisge predation. Some believed iron or rowan provided limited protection."
-    },
-    "indigenous": {
-      "cultures": [
-        "Scottish Highlanders",
-        "Hebridean islanders",
-        "Western Highland communities",
-        "Irish coastal communities (aughisky)"
-      ],
-      "significance": "Central to Highland sea safety folklore. Reflected real dangers of sea lochs - deep water, strong currents, tidal effects, cold temperatures. More feared than kelpie due to ocean association and complete consumption of victims.",
-      "sensitivity_note": "Each-uisge folklore is traditional Highland Scottish cultural heritage.",
-      "respect_guidelines": "Recognize each-uisge tales as meaningful cultural heritage with origins in maritime safety education and respect for the sea."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "J.F. Campbell's Popular Tales of the West Highlands",
-        "References in Highland folklore collections",
-        "Modern fantasy literature (less common than kelpie)",
-        "Celtic mythology anthologies"
-      ],
-      "film_tv": [
-        "Occasional appearances in fantasy media",
-        "Sometimes conflated with kelpie in popular culture"
-      ],
-      "other": [
-        "Highland folklore tours",
-        "Celtic mythology reference works",
-        "Comparative studies with kelpie"
-      ]
-    },
-    "symbolism": {
-      "themes": [
-        "Ultimate danger of the sea",
-        "Deceptive beauty concealing death",
-        "Completeness of ocean's claim (nothing returned but liver)",
-        "Power of nature over humanity",
-        "Coastal dangers vs. inland dangers (each-uisge vs. kelpie)"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "theories": {
-    "folklore_analysis": [
-      {
-        "name": "Sea safety education",
-        "description": "Tales warned about specific dangers of sea lochs and tidal waters",
-        "proponents": ["Folklore scholars"],
-        "evidence_cited": ["Highland coastal dangers", "Sea loch hazards", "Tidal currents"]
-      },
-      {
-        "name": "Kelpie intensification",
-        "description": "More extreme variant of kelpie reflecting greater fear of sea vs. freshwater",
-        "proponents": ["Comparative folklorists"],
-        "evidence_cited": ["Similar but more lethal", "Habitat distinction meaningful", "Cultural differentiation"]
-      },
-      {
-        "name": "Drowning explanation",
-        "description": "Explained coastal drownings and disappearances",
-        "proponents": ["Cultural historians"],
-        "evidence_cited": ["Bodies sometimes found with only parts remaining due to scavengers", "Ocean claims victims completely"]
-      }
-    ],
-    "origin_theories": [
-      {
-        "name": "Celtic sea spirit tradition",
-        "description": "Ancient Celtic beliefs about malevolent sea spirits",
-        "evidence_cited": ["Pre-Christian water worship", "Sea as dangerous, unpredictable realm"]
-      },
-      {
-        "name": "Natural hazard personification",
-        "description": "Personified dangers of sea lochs, tides, undertow, cold water",
-        "evidence_cited": ["Specific to sea loch environments", "Behavioral parallels to drowning hazards"]
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "campbell-1900",
-      "type": "book",
-      "title": "Popular Tales of the West Highlands",
-      "authors": ["John Francis Campbell"],
-      "publication": "Alexander Gardner",
-      "date": "1900"
-    },
-    {
-      "id": "briggs-1976",
-      "type": "book",
-      "title": "A Dictionary of Fairies",
-      "authors": ["Katharine Briggs"],
-      "publication": "Penguin Books",
-      "date": "1976",
-      "isbn": "978-0140042337"
-    },
-    {
-      "id": "mackenzie-1917",
-      "type": "book",
-      "title": "Scottish Folk-Lore and Folk Life",
-      "authors": ["William Mackenzie"],
-      "publication": "Blackie & Son",
-      "date": "1917"
-    }
-  ]
+  "sources": []
 }
