@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/each-uisge",
     "maintainers": [
       {
@@ -16,71 +16,129 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "each-uisge",
-    "name": "Each-Uisge",
-    "aliases": [],
-    "category": "|_BROADER_CELTIC_WATER_HORSE_SPIRITS_|",
-    "subcategory": "Water horse",
+    "name": "Each-uisge",
+    "aliases": [
+      { "name": "each-uisge", "language": "Scottish Gaelic", "meaning": "water horse" },
+      { "name": "each-uisce", "language": "Irish", "region": "Ireland", "meaning": "water horse" },
+      { "name": "aughisky", "language": "Irish (anglicized)", "region": "Ireland" },
+      { "name": "ech-ushkya", "language": "Irish (anglicized)" },
+      { "name": "cabyll-ushtey", "language": "Manx", "region": "Isle of Man", "meaning": "water horse" }
+    ],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Celtic water horse",
     "tags": [
-      "&-themes"
+      "celtic",
+      "scottish-folklore",
+      "irish-folklore",
+      "water-horse",
+      "shapeshifter",
+      "loch",
+      "sea-loch",
+      "highland"
     ],
     "status": "documented",
     "description": {
-      "summary": "The each-uisge (pronounced \\\"ech-ooshkya\\\") is considered the most malevolent and dangerous of the Scottish water horses.",
-      "full": "The each-uisge (pronounced \\\"ech-ooshkya\\\") is considered the most malevolent and dangerous of the Scottish water horses. Unlike its cousin the kelpie which inhabits freshwater rivers and lochs, the each-uisge dwells in the sea and sea lochs of the Scottish Highlands. It appears as a beautiful horse, often white or grey, and like the kelpie possesses adhesive skin that traps anyone who touches it. Once a victim is stuck, the each-uisge plunges into the water and drowns them."
+      "summary": "A shapeshifting Celtic water horse of Scottish and Irish folklore, considered the fiercest of all water horses; lures riders into sea lochs and freshwater lochs and devours all but their livers.",
+      "full": "The each-uisge ([ɛxˈɯʃkʲə], 'water horse') is a malevolent water spirit of Scottish Highland folklore, with a close Irish cognate (each-uisce / aughisky) and Manx cognate (cabyll-ushtey). Folklorist Katharine Briggs called it 'perhaps the fiercest and most dangerous of all the water-horses'. It is a shapeshifter, appearing most often as a fine horse or pony but also as a handsome young man or, in some accounts, an enormous bird. When mounted in horse form, the rider is initially safe; once the creature reaches water, its skin turns adhesive and it plunges to the deepest part of the loch, drowning the rider and devouring the body — except, traditionally, the liver, which floats ashore and identifies the cause of death. Unlike the kelpie, which haunts streams and rivers, the each-uisge frequents sea lochs and large freshwater lochs of the Highlands and Hebrides. The creature is documented in 19th-century collections by John Gregorson Campbell and J. F. Campbell, and synthesised in modern scholarship by Katharine Briggs."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Scottish Gaelic 'each' (horse) + 'uisge' (water); cognates each-uisce in Irish and cabyll-ushtey in Manx (cabbyl 'horse' + ushtey 'water').",
+      "meaning": "'Water horse'.",
+      "first_use": "Recorded throughout 19th-century Scottish Gaelic folklore collections."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_BROADER_CELTIC_WATER_HORSE_SPIRITS_|",
-      "type": "Water horse",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "Water spirit",
+      "subtype": "Shapeshifting water horse",
+      "variant": "Highland and Hebridean Scottish (with Irish and Manx cognates)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "kelpie", "name": "Kelpie", "relationship": "similar", "description": "Scottish water horse of streams and rivers; close cognate" },
+      { "id": "nuckelavee", "name": "Nuckelavee", "relationship": "similar", "description": "Orcadian skinless sea-monster sometimes grouped with water-horse traditions" },
+      { "id": "loch-ness-monster", "name": "Loch Ness Monster", "relationship": "related", "description": "Modern cryptid sometimes folk-etymologically linked to water-horse tradition" },
+      { "id": "ceffyl-dwr", "name": "Ceffyl Dŵr", "relationship": "regional_variant", "description": "Welsh water horse" },
+      { "id": "dobhar-chu", "name": "Dobhar-chú", "relationship": "related", "description": "Irish water hound; another Gaelic water-monster type" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["black", "grey", "white"],
+      "features": [
+        { "feature": "Adhesive skin", "description": "Skin becomes sticky once near water, trapping anyone in contact and dragging them under", "frequency": "always" },
+        { "feature": "Shapeshifting", "description": "Appears as a fine horse or pony; also as a handsome young man and (rarely) as an enormous bird such as the boobrie", "frequency": "common" },
+        { "feature": "Lake / sea-loch habitation", "description": "Inhabits sea lochs and large freshwater lochs of the Scottish Highlands and Hebrides", "frequency": "always" },
+        { "feature": "Liver discarded", "description": "Devours the entire victim except for the liver, which floats to shore — a characteristic forensic marker in folklore", "frequency": "common" }
+      ],
+      "morphology": "In horse form: a powerful black, grey, or white horse, sometimes oversized. In human form: a tall, handsome young man whose true nature is betrayed by waterweed in his hair."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Assumes horse, human, or large-bird form to lure prey", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Adhesive trap", "description": "Traps riders or those who touch it once near water", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Drowning and predation", "description": "Drags victims to the deepest part of the loch and devours them", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Livestock predation", "description": "In some Hebridean accounts, takes cattle and sheep at the water's edge", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["sea lochs", "deep freshwater lochs", "highland tarns", "Hebridean coasts"],
+      "diet": "Humans and livestock, devoured underwater except for the liver",
+      "patterns": [
+        "Approaches travellers near lochs in horse form, inviting them to mount",
+        "Strikes only when contact has been made and water is near",
+        "Reportedly more dangerous than the kelpie because it haunts large bodies of water with no easy escape"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folkloric range across the Scottish Highlands and Hebrides, with cognates in Ireland (each-uisce / aughisky) and the Isle of Man (cabyll-ushtey).",
+      "continents": ["Europe"],
+      "countries": ["United Kingdom (Scotland)", "Ireland", "United Kingdom (Isle of Man)"],
+      "regions": [
+        "Scottish Highlands",
+        "Hebrides",
+        "Argyll",
+        "Inverness-shire",
+        "Skye",
+        "Western Isles"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "19th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Scottish and Irish Gaelic folklore collections"
+      },
+      "peak_activity_periods": [
+        { "period": "1860s–1900", "description": "J. F. Campbell's 'Popular Tales of the West Highlands' (1860–1862) and John Gregorson Campbell's 'Superstitions of the Highlands and Islands of Scotland' (1900) document each-uisge tales" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pan-Celtic water-horse tradition; Scottish Gaelic and Irish forms are the best-documented in the modern folklore record.",
+      "earliest_accounts": "Earliest English-language scholarly attestations in 19th-century Scottish Gaelic folklore collections, drawing on much older oral tradition.",
+      "folklore_connections": "Shares structural features with the kelpie (Scottish), Welsh ceffyl dŵr, Manx cabyll-ushtey, Scandinavian nykur, and the Orcadian nuckelavee."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1860-01-01", "event": "John Francis Campbell publishes 'Popular Tales of the West Highlands', containing several each-uisge tales", "significance": "First major scholarly documentation in English", "source": "Campbell, J. F. (1860–1862)" },
+      { "date": "1900-01-01", "event": "John Gregorson Campbell publishes 'Superstitions of the Highlands and Islands of Scotland', with a chapter on water-horses", "significance": "Classic ethnographic treatment of the each-uisge", "source": "Campbell, J. G. (1900)" },
+      { "date": "1976-01-01", "event": "Katharine Briggs publishes 'A Dictionary of Fairies', characterising the each-uisge as 'perhaps the fiercest and most dangerous of all the water-horses'", "significance": "Foundational modern reference", "source": "Briggs, K. (1976)" }
+    ],
+    "modern_era": "The each-uisge persists in Scottish heritage tourism and folklore reference works. It is sometimes invoked in popular discussion of the Loch Ness Monster as the older folkloric layer beneath the modern cryptid."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +149,94 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "each-uisge-evidence-jgcampbell-1900",
+        "type": "folklore collection",
+        "name": "'Superstitions of the Highlands and Islands of Scotland'",
+        "date": "1900",
+        "description": "John Gregorson Campbell's foundational ethnographic survey including detailed each-uisge accounts.",
+        "status": "unverified",
+        "analysis": "Treated as primary folklore documentation, not encounter evidence.",
+        "source": "Campbell, J. G. (1900)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Otherworldly water spirit",
+        "description": "The each-uisge is a malevolent water spirit of the Celtic Otherworld, occupying the same imaginative niche as the kelpie but in larger bodies of water.",
+        "proponents": ["Highland Gaelic tradition", "Katharine Briggs"],
+        "evidence_cited": ["Continuity with pan-Celtic water-horse tradition", "Functional role in policing dangerous loch shores"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cautionary folklore around drowning",
+        "description": "Each-uisge tales function as a memetic warning system around lochs and sea lochs where drowning was the principal risk; the 'liver on the shore' motif may also encode observation of partially scavenged livestock.",
+        "proponents": ["Modern Scottish folkloristics"],
+        "evidence_cited": ["Distribution of tales correlates with deep, dangerous water bodies", "Pedagogic role of similar tales across Europe"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Scottish Gaelic Highland folklore",
+        "Irish Gaelic folklore (each-uisce / aughisky)",
+        "Manx folklore (cabyll-ushtey)"
+      ],
+      "stories": [
+        "The 'Aspen Trees' tale from Aberfeldy collected in J. F. Campbell (1860)",
+        "Hebridean each-uisge livestock-attack accounts in J. G. Campbell (1900)"
+      ],
+      "beliefs": "Anyone who mounts an each-uisge near water is doomed; the liver floating ashore is the only sign of the victim's fate. Folk practice held that a horse encountered alone near a loch should never be ridden or even touched."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
+      "literature": [
+        "'Popular Tales of the West Highlands' — J. F. Campbell (1860–1862)",
+        "'Superstitions of the Highlands and Islands of Scotland' — J. G. Campbell (1900)",
+        "'A Dictionary of Fairies' — Katharine Briggs (1976)",
+        "'The Scorpio Races' — Maggie Stiefvater (2011), adapts the Irish each-uisce / capall uisce tradition"
+      ],
+      "film_tv": [
+        "Echoes in the Loch Ness Monster mythos and various Scottish-folklore documentaries"
+      ],
+      "games": [
+        "Featured as a cryptid / monster in tabletop and indie video-game bestiaries"
+      ],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "John Francis Campbell", "affiliation": "Folklorist, Highland & Agricultural Society", "contribution": "Compiled 'Popular Tales of the West Highlands' (1860–1862), an early systematic record of Highland folklore including water-horses", "period": "1850s–1880s" },
+      { "name": "John Gregorson Campbell", "affiliation": "Minister of Tiree, folklorist", "contribution": "Authored 'Superstitions of the Highlands and Islands of Scotland' (1900) with a substantial each-uisge entry", "period": "1860s–1891" },
+      { "name": "Katharine Briggs", "affiliation": "Folklore Society (UK)", "contribution": "Classified and contextualised the each-uisge in modern English-language folkloristics", "period": "1950s–1980" }
+    ],
+    "organizations": [
+      { "name": "School of Scottish Studies, University of Edinburgh", "url": "https://www.ed.ac.uk/literatures-languages-cultures/celtic-scottish-studies", "focus": "Scottish folklore archives" },
+      { "name": "The Folklore Society", "url": "https://folklore-society.com", "focus": "British and Irish folkloristics" }
+    ],
+    "ongoing_studies": "Each-uisge research is part of ongoing Scottish-folklore scholarship at the School of Scottish Studies and within the broader study of Celtic water spirits."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "campbell-jf-1860", "type": "book", "title": "Popular Tales of the West Highlands", "authors": ["John Francis Campbell"], "publication": "Edmonston and Douglas, Edinburgh", "date": "1860" },
+    { "id": "campbell-jg-1900", "type": "book", "title": "Superstitions of the Highlands and Islands of Scotland", "authors": ["John Gregorson Campbell"], "publication": "James MacLehose and Sons, Glasgow", "date": "1900" },
+    { "id": "briggs-1976", "type": "book", "title": "A Dictionary of Fairies", "authors": ["Katharine Briggs"], "publication": "Penguin / Pantheon", "date": "1976", "isbn": "978-0394734675" },
+    { "id": "wikipedia-each-uisge", "type": "website", "title": "Each-uisge", "url": "https://en.wikipedia.org/wiki/Each-uisge", "accessed": "2026-05-07" }
+  ]
 }
